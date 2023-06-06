@@ -1,0 +1,19 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sim_1/new/CPU-32_tb.v,1673046881,verilog,,,,CPU_32_tb,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU.v,1673131814,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU_cntrl.v,,ALU,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU_cntrl.v,1672782020,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Data_Mem.v,,ALU_cntrl,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Data_Mem.v,1673295426,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/IM.v,,Data_Mem,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/IM.v,1673295595,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/PC.v,,IM,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/PC.v,1672515195,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Reg_File.v,,PC,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Reg_File.v,1672854786,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_Reg_MUX.v,,Reg_File,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_Reg_MUX.v,1672518892,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_data_MUX.v,,Write_Reg_MUX,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_data_MUX.v,1672855248,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/adder.v,,Write_data_MUX,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/adder.v,1672366034,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/control_unit.v,,adder,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/control_unit.v,1673046660,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/datapath.v,,control_unit,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/datapath.v,1672957032,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/sign_xtend.v,,datapath,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/sign_xtend.v,1672772273,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU_MUX.v,,sign_xtend,,,,,,,,
+C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU_MUX.v,1672782394,verilog,,C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sim_1/new/CPU-32_tb.v,,to_ALU_MUX,,,,,,,,

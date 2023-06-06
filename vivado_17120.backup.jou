@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Dec 29 19:56:34 2022
+# Process ID: 17120
+# Current directory: C:/Users/pc/Desktop/CPU-32bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent812 C:\Users\pc\Desktop\CPU-32bit\CPU-32bit.xpr
+# Log file: C:/Users/pc/Desktop/CPU-32bit/vivado.log
+# Journal file: C:/Users/pc/Desktop/CPU-32bit\vivado.jou
+# Running On: DESKTOP-COMP9CH, OS: Windows, CPU Frequency: 3392 MHz, CPU Physical cores: 4, Host memory: 17132 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Reg_File.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Reg_File.v
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/IM.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/IM.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+launch_simulation
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_Reg_MUX.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_Reg_MUX.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU.v
+update_compile_order -fileset sources_1
+relaunch_sim
+close_sim
+launch_simulation
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/sign_xtend.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/sign_xtend.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/control_unit.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/control_unit.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU_cntrl.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/ALU_cntrl.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU_MUX.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU_MUX.v
+update_compile_order -fileset sources_1
+refresh_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+export_ip_user_files -of_objects  [get_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU.v] -no_script -reset -force -quiet
+remove_files  C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/to_ALU.v
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Data_Mem.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Data_Mem.v
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source CPU_32_tb.tcl
+relaunch_sim
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+close_sim
+launch_simulation
+source CPU_32_tb.tcl
+relaunch_sim
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+set_property xsim.view C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg [get_filesets sim_1]
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+close [ open C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_data_MUX.v w ]
+add_files C:/Users/pc/Desktop/CPU-32bit/CPU-32bit.srcs/sources_1/new/Write_data_MUX.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+close_sim
+launch_simulation
+open_wave_config C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+close_sim
+launch_simulation
+open_wave_config C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+source CPU_32_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+refresh_design
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+refresh_design
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg
+source CPU_32_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/pc/Desktop/CPU-32bit/CPU_32_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim

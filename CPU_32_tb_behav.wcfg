@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_32_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_32_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="25.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="175.001 ns"></ZoomEndTime>
+      <Cursor1Time time="33.801 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="206"></NameColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/DM_op" type="array">
+      <obj_property name="ElementShortName">DM_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/DM_addr" type="array">
+      <obj_property name="ElementShortName">DM_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/DM_dataW" type="array">
+      <obj_property name="ElementShortName">DM_dataW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_dataW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/DM_out" type="array">
+      <obj_property name="ElementShortName">DM_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/DM_mem" type="array">
+      <obj_property name="ElementShortName">DM_mem[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">DM_mem[0:63][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_32_tb/DUT/Data_Mem_top/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
